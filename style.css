@@ -1,0 +1,112 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+ background-color: #4caf50;
+ margin: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+     padding: 30px;
+}
+.loginform{
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+}
+.loginpage{
+    width: 300px;
+    margin: 100px auto;
+    background-color: linen;
+    padding: 50px;
+}
+.loginheading{
+    text-align: center;
+}
+
+.forget a, .forget{
+text-align: center;
+text-decoration: none;
+color: black;
+}
+.login{
+    
+    text-align: center;
+}
+.login input, .login{
+    background-color: green;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.navbar a{
+    font-size: 12px;
+}
+.form-row {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 10px;
+  align-items: center;
+}
+.homeimg{
+   width: 100%;
+    height: 500px;
+    margin: auto;
+    object-fit: contain;
+}
+.home{
+   display: flex;
+   justify-content: space-around;
+   margin: 100px;
+}
+.location1 label{
+    margin: 30px;
+}
+.location{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.location h1{
+    text-align: center;
+}
+.nav{
+    display: flex;
+    gap: 30px;
+}
+.nav a{
+    text-decoration: none;
+       font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: lighter;
+  color: white;
+}
+.city>p{
+text-align: center;
+ font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto; 
+}
+.cycle-img{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+.cycles{
+    display: flex;
+    justify-content: space-evenly;
+}
+.ecycle-collection> h1, p{
+    text-align: center;
+}
+.description{
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
